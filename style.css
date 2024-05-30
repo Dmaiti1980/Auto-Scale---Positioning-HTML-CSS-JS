@@ -1,71 +1,68 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .Container_master{
-      position: fixed;
-      width: 100vw;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      overflow: hidden;
-  }
-.BG_Element{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.Container_master {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.BG_Element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.Overlay_Element{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.Overlay_Element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
-.Scale_Element{  
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-}
-
-.ABC_Element{
-    position: absolute;
-    scale: 0.5;
-    transform: translate(-50%, -100%);
-    cursor: pointer; 
-}
-#ABC-1{
-    top: 25%;
-    left: 25%;
-    scale: 0.8;
-}
-#ABC-2{
-    top: 10%;
-    left: 48%;
-    scale: 0.3
+.Scale_Element {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
 }
 
-.XYZ_Element{
-    position: absolute;
-    scale: 0.1;
-    transform: translate(-50%, -50%);
-    cursor: pointer; 
+.ABC_Element {
+  position: absolute;
+  scale: 2.5;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+#ABC-1 {
+  top: 40%;
+  left: 85%;
+}
+#ABC-2 {
+  top: 60%;
+  left: 85%;
 }
 
-#XYZ-1{
-    top: 40%;
-    left: 20%;
-}
-#XYZ-2{
-    top: 33%;
-    left: 30%;
-}
-#XYZ-3{
-    top: 28%;
-    left: 40%;    
+.XYZ_Element {
+  position: absolute;
+  scale: 0.5;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-
+#XYZ-1 {
+  top: 80%;
+  left: 30%;
+}
+#XYZ-2 {
+  top: 80%;
+  left: 50%;
+}
+#XYZ-3 {
+  top: 80%;
+  left: 70%;
+}
